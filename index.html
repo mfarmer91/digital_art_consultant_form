@@ -3,47 +3,49 @@
     <head>
         <meta charset="utf-8">
         <title>Digital Art Consultant</title>
+        <link rel="stylesheet" href="style.css">
+        <link href="https://fonts.googleapis.com/css?family=Roboto:100,300,400,500,700,900" rel="stylesheet">
     </head>
     <body>
         <form action="index.html" method="post">
-            <h1>Uncover Hidden Treasure.</h1>
+            <h1>Find Truth in Art</h1>
             <fieldset>
-                <legend><span>1</span>About Your Object</legend>
+                <legend><span class="number">1</span>About Your Object</legend>
                 
-                <label for="story">Tell your object's story:</label><br>
-                <input type="text" id="story" name="object_story"><br>
+                <label for="story" class="secondary_header">Tell your object's story:</label>
+                <input type="text" id="story" name="object_story">
                 
-                <label for="image_one">Images:</label><br>
-                <label for="image_one">Attach profile pictures for your object.<span> Image Tips.</span></label><br>
+                <label for="image_one" class="secondary_header">Images:</label>
+                <label for="image_one" class="tertiary_header">Attach profile pictures for your object.<span class=image_tips href="index.html"> Image Tips.</span></label>
                 <input type="file" id="image_one" name="image_one">
                 <input type="file" id="image_two" name="image_two">
-                <input type="file" id="image_three" name="image_three"><br>
+                <input type="file" id="image_three" name="image_three">
                 
-                <label for="supplemental_text">Supplemental Documents:</label>
-                <label>Prove that your unique object is authentic.  This section is for uploading prior appraisals and exhibition history, scanning literature where you object is pictured or providing any details already unearthed.</label>
+                <label for="supplemental_text" class="secondary_header">Supplemental Documents:</label>
+                <label class="tertiary_header">Prove that your unique object is authentic.  This section is for uploading prior appraisals and exhibition history, scanning literature where you object is pictured or providing any details already unearthed.</label>
                 <input type="text" id="supplemental_text" name="supplemental_text">
                 
-                <label>Documentation goes here.</label>
+                <label class="tertiary_header">Documentation goes here.</label>
                 <input type="file" id="supplemental_file_one" name="supplemental_file_one">
                 <input type="file" id="supplemental_file_two" name="supplemental_file_two">
                 
-                <legend><span>2</span>Moving Forward</legend>
+                <legend><span class="number">2</span>Moving Forward</legend>
                 
-                <label>Connecting you with an Institution:</label>
-                <label>After processing your information, we will send you a list of regional institutions that can assist you with discovering more about your object.</label>
-                <input type="checkbox" id="museum" value="institution_museum" name="user_institution"><label for="museum">Museum</label><br>
+                <label class="secondary_header">Connecting you with an Institution:</label>
+                <label class="tertiary_header">After processing your information, we will send you a list of regional institutions that can assist you with discovering more about your object.</label>
+                <input type="checkbox" id="museum" value="institution_museum" name="user_institution"><label for="museum" class="checkbox_text">Museum</label>
                 
-                <input type="checkbox" id="auction_house" value="institution_auction_house" name="user_institution"><label for="auction_house">Auction House</label><br>
+                <input type="checkbox" id="auction_house" value="institution_auction_house" name="user_institution"><label for="auction_house" class="checkbox_text">Auction House</label>
                 
-                <input type="checkbox" id="appraisor" value="institution_appraisor" name="user_institution"><label for="appraisor">Appraisor</label><br>
+                <input type="checkbox" id="appraisor" value="institution_appraisor" name="user_institution"><label for="appraisor" class="checkbox_text">Appraisor</label>
                 
-                <input type="checkbox" id="art_advisor" value="institution_art_advisor" name="user_institution"><label for="art_advisor">Art Advisor</label><br>
+                <input type="checkbox" id="art_advisor" value="institution_art_advisor" name="user_institution"><label for="art_advisor" class="checkbox_text">Art Advisor</label>
                 
-                <input type="checkbox" id="downsizing_expert" value="institution_downsizing_expert" name="user_institution"><label for="downsizing_expert">Downsizing Expert</label><br>
+                <input type="checkbox" id="downsizing_expert" value="institution_downsizing_expert" name="user_institution"><label for="downsizing_expert" class="checkbox_text">Downsizing Expert</label>
                 
-                <input type="checkbox" id="academic_expert" value="institution_academic_expert" name="user_institution"><label for="academic_expert">Academic Expert</label><br>
+                <input type="checkbox" id="academic_expert" value="institution_academic_expert" name="user_institution"><label for="academic_expert" class="checkbox_text">Academic Expert</label>
                 
-                <label for="email">Email</label>
+                <label for="email" class="secondary_header" class="checkbox_text">Email</label>
                 <input type="text" id="email" name="user_email">
                 
                 <button type="submit">Done</button>
