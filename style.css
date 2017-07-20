@@ -73,6 +73,14 @@ legend {
     line-height: .5;
 }
 
+.institution_secondary_header {
+    margin-top: 5px;
+}
+
+.email_secondary_header {
+    margin-top: .25em;
+}
+
 /*********************************************
 BODY: INPUTS/BUTTONS
 *********************************************/
@@ -111,6 +119,19 @@ input[type="file"] {
 #supplemental_file_two {
     display: block;
     margin: 3px 0;
+}
+
+button {
+    height: 40px;
+    width: 100px;
+    width: 100%;
+    margin-top: 4%;
+    box-shadow: 0 -1px 0 rgba(255,255,255,0.1) inset;
+    text-align: center;
+    display: inline-block;
+    font-weight: 500;
+    font-size: 1.25em;
+    
 }
 
 /*
@@ -166,6 +187,11 @@ legend {
 
 h1 {
     color: #283018;    
+}
+
+button {
+    background-color: #729f98;
+    color: #f0eceb;
 }
 
 /*********************************************
