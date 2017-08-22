@@ -25,6 +25,11 @@ fieldset {
 BODY: HEADERS/LEGENDS
 *********************************************/
 
+#content {
+    margin-left: 5%;
+    margin-right: 2.5%;
+}
+
 h1 {
     text-align: center;
     margin-bottom: 10px;
@@ -69,9 +74,11 @@ legend {
     margin-bottom: -3px;
 }
 
+/*
 .supplemental_text_secondary_header {
-    line-height: .5;
+    line-height: 1;
 }
+*/
 
 .institution_secondary_header {
     margin-top: 5px;
@@ -122,9 +129,6 @@ input[type="file"] {
 }
 
 button {
-    height: 40px;
-    width: 100px;
-    width: 100%;
     margin-top: 4%;
     box-shadow: 0 -1px 0 rgba(255,255,255,0.1) inset;
     text-align: center;
@@ -132,6 +136,13 @@ button {
     font-weight: 500;
     font-size: 1.25em;
     
+}
+
+#submit_button {
+    margin-left: 35%;
+    margin-top: 7%;
+    margin-bottom: 5%;
+    width: 20%;
 }
 
 /*
@@ -155,6 +166,10 @@ BODY: OTHER TEXT
     font-size: .25em;
 }
 
+
+/*********************************************
+BODY: CTNs
+*********************************************/
 
 /*********************************************
 COLORS
